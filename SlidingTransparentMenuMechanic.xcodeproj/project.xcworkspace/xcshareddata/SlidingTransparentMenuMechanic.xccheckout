@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55367A51-C18C-4944-A348-099D96404FE1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlidingTransparentMenuMechanic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F093CBFD0F370AD9C5E28C3DD0864546CDA9FF97</key>
+		<string>https://github.com/yungdai/SlidingTransparentMenuMechanic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SlidingTransparentMenuMechanic.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F093CBFD0F370AD9C5E28C3DD0864546CDA9FF97</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yungdai/SlidingTransparentMenuMechanic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F093CBFD0F370AD9C5E28C3DD0864546CDA9FF97</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F093CBFD0F370AD9C5E28C3DD0864546CDA9FF97</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlidingTransparentMenuMechanic</string>
+		</dict>
+	</array>
+</dict>
+</plist>

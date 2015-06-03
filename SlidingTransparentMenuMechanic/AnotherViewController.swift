@@ -20,11 +20,6 @@ class AnotherViewController: UIViewController, ENSideMenuDelegate  {
     @IBAction func toggleSideMenu(sender: AnyObject) {
         toggleSideMenuView()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
     /*
@@ -36,5 +31,10 @@ class AnotherViewController: UIViewController, ENSideMenuDelegate  {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func viewWillAppear(animated: Bool) {
+        
+        self.sideMenuController()?.sideMenu?.delegate = self
+    }
 
 }
