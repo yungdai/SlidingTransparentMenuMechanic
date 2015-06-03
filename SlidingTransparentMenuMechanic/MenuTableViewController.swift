@@ -58,10 +58,10 @@ class MenuTableViewController: UITableViewController {
         
         switch (indexPath.row) {
         case 0:
-            cell!.textLabel?.text = "Test 1 Customisable Text "
+            cell!.textLabel?.text = "Waves "
             break
         case 1:
-            cell!.textLabel?.text = "Test 2 Customisable Text"
+            cell!.textLabel?.text = "Green View"
             break
         case 2:
             cell!.textLabel?.text = "Test 3 Customisable Text "
