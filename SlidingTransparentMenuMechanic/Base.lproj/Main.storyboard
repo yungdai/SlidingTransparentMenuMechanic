@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mPP-8Y-EiY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D2134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mPP-8Y-EiY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main Navigation Controller-->
@@ -45,7 +44,7 @@
                             <constraint firstAttribute="trailing" secondItem="Yu2-hW-JY3" secondAttribute="trailing" id="hxc-xm-IVS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Main Menu" id="Kee-ej-K2D">
+                    <navigationItem key="navigationItem" title="Cheap Eats" id="Kee-ej-K2D">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="X4X-Rq-QLR">
                             <connections>
                                 <action selector="toggleSideMenu:" destination="r4v-yU-FDy" id="SVb-Oe-0QL"/>
@@ -57,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="953" y="649"/>
         </scene>
-        <!--Another View-->
+        <!--Restaurants-->
         <scene sceneID="Jtk-Vw-xha">
             <objects>
                 <viewController storyboardIdentifier="AnotherViewController" id="CWr-ps-hLn" customClass="AnotherViewController" customModule="SlidingTransparentMenuMechanic" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,20 +67,9 @@
                     <view key="view" contentMode="scaleToFill" id="8BU-qw-rHb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Picture" translatesAutoresizingMaskIntoConstraints="NO" id="2r1-BJ-q2s">
-                                <rect key="frame" x="111" y="115" width="378" height="360"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.84705889225006104" green="0.92156869173049927" blue="0.20392158627510071" alpha="1" colorSpace="deviceRGB"/>
-                        <constraints>
-                            <constraint firstItem="2r1-BJ-q2s" firstAttribute="top" secondItem="Wmh-jJ-Dcw" secondAttribute="bottom" constant="51" id="BQK-iq-a1s"/>
-                            <constraint firstItem="bW6-wb-QyL" firstAttribute="top" secondItem="2r1-BJ-q2s" secondAttribute="bottom" constant="125" id="Frx-QT-LOj"/>
-                            <constraint firstItem="2r1-BJ-q2s" firstAttribute="leading" secondItem="8BU-qw-rHb" secondAttribute="leadingMargin" constant="95" id="PXo-ra-F5A"/>
-                            <constraint firstItem="2r1-BJ-q2s" firstAttribute="centerX" secondItem="8BU-qw-rHb" secondAttribute="centerX" id="d3W-rn-ckq"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Another View" id="YkH-Qr-zyk">
+                    <navigationItem key="navigationItem" title="Restaurants" id="YkH-Qr-zyk">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="Ong-OS-j4O">
                             <connections>
                                 <action selector="toggleSideMenu:" destination="CWr-ps-hLn" id="gNS-Ls-4ov"/>
@@ -109,9 +97,49 @@
             </objects>
             <point key="canvasLocation" x="189" y="1369"/>
         </scene>
+        <!--Third View-->
+        <scene sceneID="Sz4-B1-rcx">
+            <objects>
+                <viewController storyboardIdentifier="FoodViewController" id="w7G-mr-9ov" userLabel="Third View" customClass="FoodViewController" customModule="SlidingTransparentMenuMechanic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mIa-Rf-IRp"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Wx-kS-Etd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6QQ-xT-Hda">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.69411764710000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Food View" id="Smz-ts-ULV">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="2fq-av-Zha">
+                            <connections>
+                                <action selector="toggleSideMenu:" destination="w7G-mr-9ov" id="exR-z9-OIp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUS-zP-giY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="2095"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QtS-qL-Beh">
+            <objects>
+                <navigationController id="PN3-Dm-hYt" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4q8-hy-gwZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="w7G-mr-9ov" kind="relationship" relationship="rootViewController" id="cny-f8-PfZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="THb-Bk-a7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="2095"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Picture" width="182" height="351"/>
         <image name="image" width="1174" height="1220"/>
         <image name="menu" width="22" height="22"/>
     </resources>

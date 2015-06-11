@@ -18,6 +18,7 @@
 		1A54716E1B1E990A001143F4 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54716D1B1E990A001143F4 /* MainNavigationController.swift */; };
 		1A5471721B1E9C13001143F4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5471711B1E9C13001143F4 /* MenuTableViewController.swift */; };
 		1A5471741B1E9F4B001143F4 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5471731B1E9F4B001143F4 /* AnotherViewController.swift */; };
+		1AB480191B29E49A009E0B92 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB480181B29E49A009E0B92 /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		1A54716D1B1E990A001143F4 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		1A5471711B1E9C13001143F4 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		1A5471731B1E9F4B001143F4 /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		1AB480181B29E49A009E0B92 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				1A54716D1B1E990A001143F4 /* MainNavigationController.swift */,
 				1A5471711B1E9C13001143F4 /* MenuTableViewController.swift */,
 				1A5471731B1E9F4B001143F4 /* AnotherViewController.swift */,
+				1AB480181B29E49A009E0B92 /* FoodViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				1A54716E1B1E990A001143F4 /* MainNavigationController.swift in Sources */,
 				1A5471691B1E9661001143F4 /* ENSideMenuNavigationController.swift in Sources */,
+				1AB480191B29E49A009E0B92 /* FoodViewController.swift in Sources */,
 				1A5471721B1E9C13001143F4 /* MenuTableViewController.swift in Sources */,
 				1A5471741B1E9F4B001143F4 /* AnotherViewController.swift in Sources */,
 				1A5471681B1E9661001143F4 /* ENSideMenu.swift in Sources */,
@@ -447,6 +451,7 @@
 				1A5471611B1E956E001143F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A5471621B1E956E001143F4 /* Build configuration list for PBXNativeTarget "SlidingTransparentMenuMechanicTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				1A5471641B1E956E001143F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

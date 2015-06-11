@@ -39,7 +39,7 @@ class MenuTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 2
+        return 3
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -58,16 +58,16 @@ class MenuTableViewController: UITableViewController {
         
         switch (indexPath.row) {
         case 0:
-            cell!.textLabel?.text = "Waves "
+            cell!.textLabel?.text = "Cheap Eats "
             break
         case 1:
-            cell!.textLabel?.text = "Green View"
+            cell!.textLabel?.text = "Restaurants"
             break
         case 2:
-            cell!.textLabel?.text = "Test 3 Customisable Text "
+            cell!.textLabel?.text = "Foods"
             break
         default:
-            cell!.textLabel?.text = "Test 4 Customisable Text "
+            cell!.textLabel?.text = "Maps"
             break
         }
         
@@ -98,7 +98,7 @@ class MenuTableViewController: UITableViewController {
             destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("AnotherViewController")as! UIViewController
             break
         case 2:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController3")as! UIViewController
+            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("FoodViewController")as! UIViewController
             break
         default:
             destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController4") as! UIViewController
